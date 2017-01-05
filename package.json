@@ -1,7 +1,9 @@
 {
-  "name": "test",
+  "name": "Jamocracy",
   "version": "1.0.0",
-  "main": "add.js",
+  "main": "app.js",
+  "homepage": "http://www.jamocracy.xyz/",
+  "repository": "mkrum/Jamocracy",
   "dependencies": {
     "body-parser": "^1.14.1",
     "compression": "^1.6.0",
@@ -14,12 +16,16 @@
   },
   "devDependencies": {
     "eslint": "*",
-    "eslint-config-google": "^0.6.0"
+    "expect.js": "^0.3.1",
+    "mocha": "^2.5.3",
+    "mockery": "^1.7.0",
+    "sinon": "^1.17.4",
+    "supertest": "^1.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
-  "author": "michael krumdick",
+  "author": "Michael Krumdick",
   "license": "ISC",
-  "description": "Dan is weak"
+  "description": "A web service that allows parties to interact with a spotify playlist through SMS"
 }
